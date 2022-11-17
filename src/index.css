@@ -1,13 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 2rem;
+}
+
+/* .app {
+  /* width: 100%;
+  height: 100vh; 
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffff;
+  overflow-y: hidden;
+  display: flex;
+} */
+
+.app-header {
+  background-color: aqua;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header img {
+  width: 25px;
+}
+
+.app-header a {
+  padding-top: 1.5%;
+  color: antiquewhite;
+}
+
+.content {
+  color: blue;
+  display: flex;
+}
+
+.section-a {
+  width: 50%;
+  height: 95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-b {
+  width: 50%;
+  height: 95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 35rem;
+  height: 400px;
+  background-color: #ffbd59;
+  border: 3px solid black;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.message {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  width: 90%;
+  height: 90%;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: lightblue;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textMessage {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 10px 30px;
+  text-align: center;
+}
+
+.generate {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate i {
+  margin: 0 20px;
+}
+
+.generate button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: #fd72aa;
+  border: 3px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.generate button:hover {
+  background-color: #ff3688;
 }
